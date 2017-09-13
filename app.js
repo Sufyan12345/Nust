@@ -7,11 +7,11 @@ var sentimentAnalysis = require('sentiment-analysis');
 
 
 var T = new Twit({
-  consumer_key:'MuXeSuiJ45Jrl8l9QtIXEit0S',
-  consumer_secret:'LvFxKZ6mNwKkantlFuFfp2eqWq2eYU3svEYi4ZfN5SL0XinWRa',
-  access_token:'1722061238-gGZDLo4h7bX7XnAJPQXTBmEmxUfRRgqHyiTi85c',
-  access_token_secret:'ThU8SyhWgtb16DJ54f0q2GnU1fwWkC01TmvZoGG6okmRN',
-})
+    consumer_key:'3UGIAbZhkun2Vgkw9iLx04ddo',
+    consumer_secret:'sexAzr9gA1lZnkr8mxsltIHTu3NgQ4jdFBYOg0Vw4EGIkY1TWD',
+    access_token:'1722061238-gGZDLo4h7bX7XnAJPQXTBmEmxUfRRgqHyiTi85c',
+    access_token_secret:'ThU8SyhWgtb16DJ54f0q2GnU1fwWkC01TmvZoGG6okmRN',
+  });
 
 
 // Setup Restify Server
@@ -21,13 +21,10 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 });
 // Create connector and listen for messages
 var connector = new builder.ChatConnector({
-<<<<<<< HEAD
+
     appId:'a0139538-7203-4933-a8d8-0bf7a57ca2d4',
     appPassword:'NbktH3gKKKMSYiMcOFf1yw3'
-=======
-    //appId:MICROSOFT_APP_ID,
-   // appPassword:MICROSOFT_APP_PASSWORD
->>>>>>> 1f14b869dc915d24e8cc29bb1967126cd185de8d
+
 });
 server.post('/api/messages', connector.listen());
 

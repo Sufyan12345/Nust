@@ -1,0 +1,30 @@
+{
+  "name": "msbot",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "botbuilder": "^3.7.0",
+    "dotenv-extended": "^2.0.1",
+    "request": "^2.81.0",
+    "restify": "^4.3.0",
+    "sentiment": "^4.0.0",
+    "sentiment-analysis": "^0.1.2",
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nil"
+  },
+  "keywords": [
+    "helo",
+    "there"
+  ],
+  "author": "Faizan",
+  "license": "ISC"
+}
